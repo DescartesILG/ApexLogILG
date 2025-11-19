@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Infinite Lagrange Ship Tracker</title>
+</head>
+<body>
+    <div class="container">
+        <aside class="sidebar">
+            <h2>Ship Class</h2>
+            <select id="ship-class">
+                <option value="">--Select Class--</option>
+                <option value="battleship">Battleship</option>
+                <option value="carrier">Carrier</option>
+                <option value="battlecruiser">Battlecruiser</option>
+                <option value="auxiliary">Auxiliary Ship</option>
+                <option value="cruiser">Cruiser</option>
+                <option value="destroyer">Destroyer</option>
+                <option value="frigate">Frigate</option>
+                <option value="corvette">Corvette</option>
+                <option value="aircraft">Aircraft</option>
+            </select>
+
+            <h2>Ship</h2>
+            <select id="ship">
+                <option value="">--Select Ship--</option>
+            </select>
+        </aside>
+
+        <main class="content">
+            <div id="ship-display"></div>
+        </main>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
