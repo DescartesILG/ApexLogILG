@@ -4,9 +4,11 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Infinite Lagrange Ship Tracker</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
     <div class="container">
+        <!-- Sidebar -->
         <aside class="sidebar">
             <h2>Ship Class</h2>
             <select id="ship-class">
@@ -28,11 +30,13 @@
             </select>
         </aside>
 
+        <!-- Main Content -->
         <main class="content">
-            <div id="ship-display"></div>
+            <h1>Ship Data</h1>
+            <div id="ship-display">
+                <!-- Ship tiles will appear here via JS -->
+            </div>
         </main>
     </div>
-
-    <script src="script.js"></script>
 </body>
 </html>
