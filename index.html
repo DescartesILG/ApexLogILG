@@ -8,35 +8,19 @@
 </head>
 <body>
     <div class="container">
-        <!-- Sidebar -->
-        <aside class="sidebar">
-            <h2>Ship Class</h2>
-            <select id="ship-class">
-                <option value="">--Select Class--</option>
-                <option value="battleship">Battleship</option>
-                <option value="carrier">Carrier</option>
-                <option value="battlecruiser">Battlecruiser</option>
-                <option value="auxiliary">Auxiliary Ship</option>
-                <option value="cruiser">Cruiser</option>
-                <option value="destroyer">Destroyer</option>
-                <option value="frigate">Frigate</option>
-                <option value="corvette">Corvette</option>
-                <option value="aircraft">Aircraft</option>
-            </select>
-
-            <h2>Ship</h2>
+        <div class="sidebar">
+            <h2>Select Ship</h2>
             <select id="ship">
                 <option value="">--Select Ship--</option>
+                <option value="Jaegar">Jaegar</option>
+                <option value="Io">Io</option>
             </select>
-        </aside>
-
-        <!-- Main Content -->
-        <main class="content">
-            <h1>Ship Data</h1>
-            <div id="ship-display">
-                <!-- Ship tiles will appear here via JS -->
-            </div>
-        </main>
+        </div>
+        <div class="main" id="ship-display">
+            <!-- Ship variants will appear here -->
+        </div>
     </div>
+
+    <script src="script.js"></script>
 </body>
 </html>
